@@ -57,10 +57,6 @@ async function execute() {
     const profileA = await saveProfile('rh_1', 'Pessoal')
     const profileB = await saveProfile('fin_1', 'Financeiro')
 
-    console.log(user)
-    console.log(profileA)
-    console.log(profileB)
-
     await addProfiles(user, profileA, profileB)
 }
 
